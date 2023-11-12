@@ -1,0 +1,87 @@
+tier	variableName	variable	segment	description
+Segment tier	nSeg	number	non-pause	number of segments
+Segment tier	rateSeg	rate	non-pause	rate of segments
+Segment tier	meanSeg	mean	non-pause	mean duration of segment
+Syllable tier	nSyl	number	non-pause	number of syllables
+Syllable tier	rateSyl	rate	non-pause	rate of syllables
+Syllable tier	meanSyl	mean	non-pause	mean syllable duration
+Syllable tier	meanSylLn	meanLn	non-pause	mean ln transformed syllabel durations
+Syllable tier	deltaSyl	stdev	non-pause	standard deviation of syllable durations
+Syllable tier	deltaSylLn	stdevLn	non-pause	standard deviaiion of ln normalized syllable durations
+Syllable tier	varcoSyl	varco	non-pause	coefficient of variation of deltaSyl
+Syllable tier	rPVI-Syl	rPVI	non-pause	raw Pairwise Variability Index of Syllable durations
+Syllable tier	nPVI-Syl	nPVI	non-pause	normalized Pairwise Variability Index of Syllable durations
+CV interval tier	nC	number	c	number of C intervals
+CV interval tier	rateC	rate	c	rate of C intervals
+CV interval tier	meanC	mean	c	mean duration of C interval
+CV interval tier	meanCLn	meanLn	c	mean duration of Ln normalized C interval durations
+CV interval tier	deltaC	stdev	c	standard deviation of C intervals
+CV interval tier	deltaCLn	stdevLn	c	standard deviation of ln normalized C intervals
+CV interval tier	varcoC	varco	c	variation coefficient of deltaC
+CV interval tier	rPVI_C	rPVI	c	raw Pairwise Variability Index for C intervals
+CV interval tier	nPVI_C	nPVI	c	normalized Pairwise Variability Index for C intervals
+CV interval tier	nV	number	v	number of V intervals
+CV interval tier	rateV	rate	v	rate of V intervals
+CV interval tier	meanV	mean	v	mean duration of V interval
+CV interval tier	meanVLn	meanLn	v	mean duration of ln transformed V intervals
+CV interval tier	deltaV	stdev	v	standard deviation of V intervals
+CV interval tier	deltaVLn	stdevLn	v	standard deviation of ln normalized V intervals
+CV interval tier	varcoV	varco	v	coefficient of variation of deltaV
+CV interval tier	rPVI_V	rPVI	v	raw Pairwise Variability Index for V intervals
+CV interval tier	nPVI_V	nPVI	v	normalized Pairwise Variability Index for V intervals
+CV interval tier	percentV	percentOfTotal	 v	percentage over which speech is vocalic
+CV interval tier	nCV	number	non-pause	number of C or V intervals
+CV interval tier	rateCV	rate	non-pause	rate of C or V intervals
+CV interval tier	meanCV	mean	non-pause	mean duration of C or V interval
+CV interval tier	meanCVLn	meanLn	non-pause	mean duration of Ln normalized C or V interval durations
+CV interval tier	deltaCV	stdev	non-pause	standard deviation of C or V intervals
+CV interval tier	deltaCVLn	stdevLn	non-pause	standard deviation of ln normalized C or V intervals
+CV interval tier	varcoCV	varco	non-pause	variation coefficient of deltaCV
+CV interval tier	rPVI_CV	rPVI	non-pause	raw Pairwise Variability Index for C intervals
+CV interval tier	nPVI_CV	nPVI	non-pause	normalized Pairwise Variability Index for C intervals
+CV segment tier	nCon	number	c	number of consonants
+CV segment tier	rateCon	rate	c	rate of consonants
+CV segment tier	meanCon	mean	c	mean duration of consonants
+CV segment tier	meanConLn	meanLn	c	mean duration of Ln normalized consonant durations
+CV segment tier	deltaCon	stdev	c	standard deviation of consonant durations
+CV segment tier	deltaConLn	stdevLn	c	standard deviation of ln normalized consonant durations
+CV segment tier	varcoCon	varco	c	variation coefficient of deltaCon
+CV segment tier	rPVI_Con	rPVI	c	raw Pairwise Variability Index for consonants
+CV segment tier	nPVI_Con	nPVI	c	normalized Pairwise Variability Index for consonants
+CV segment tier	nVow	number	v	number of vowels
+CV segment tier	rateVow	rate	v	rate of vowels
+CV segment tier	meanVow	mean	v	mean duration of vowels
+CV segment tier	meanVowLn	meanLn	v	mean duration of ln transformed vowel durations
+CV segment tier	deltaVow	stdev	v	standard deviation of vowel durations
+CV segment tier	deltaVowLn	stdevLn	v	standard deviation of ln normalized vowel durations
+CV segment tier	varcoVow	varco	v	coefficient of variation of deltaVow
+CV segment tier	rPVI_Vow	rPVI	v	raw Pairwise Variability Index for vowels
+CV segment tier	nPVI_Vow	nPVI	v	normalized Pairwise Variability Index for vowels
+Peak tier	nPeak	number	non-pause	number of intervals between peaks in utterance
+Peak tier	meanPeak	mean	non-pause	mean duration of intervals between peaks (inter-peak intervals; to get number of peaks add one)
+Peak tier	ratePeak	rate	non-pause	rate of inter-peak intervals
+Peak tier	meanPeakLn	meanLn	non-pause	mean duration of inter-peak intervals (log normalized)
+Peak tier	deltaPeak	stdev	non-pause	standard deviation of inter-peak intervals
+Peak tier	deltaPeakLn	stdevLn	non-pause	standard deviation of ln normalized inter-peak intervals
+Peak tier	varcoPeak	varco	non-pause	coefficient of variation of inter-peak intervals
+Peak tier	rPVI_peak	rPVI	non-pause	raw Pairwise Variability Index for inter-peak intervals
+Peak tier	nPVI_peak	nPVI	non-pause	normalized Pairwise Variability Index for inter-peak intervals
+Voicing tier	percentVoiced	percentOfTotal	 vo	percentage over which speech is voiced
+Voicing tier	nVoiced	number	vo	number of voiced intervals
+Voicing tier	meanVoiced	mean	vo	mean duration of voiced intervals
+Voicing tier	meanVoicedLn	meanLn	vo	mean duration of ln transformed voiced intervals
+Voicing tier	deltaVoiced	stdev	vo	standard deviation of voiced intervals
+Voicing tier	deltaVoicedLn	stdevLn	vo	standard deviation of ln normalized voiced intervals
+Voicing tier	varcoVoiced	varco	vo	coefficient of variation of deltaVoiced
+Voicing tier	rPVI_Voiced	rPVI	vo	raw Pairwise Variability Index for voiced intervals
+Voicing tier	nPVI_Voiced	nPVI	vo	normalized Pairwise Variability Index for voiced intervals
+Voicing tier	nUnvoiced	number	uv	number of unvoiced intervals
+Voicing tier	meanUnvoiced	mean	uv	mean duration of unvoiced intervals
+Voicing tier	meanUnvoicedLn	meanLn	uv	mean duration of ln transformed unvoiced intervals
+Voicing tier	deltaUnvoiced	stdev	uv	standard deviation of unvoiced intervals
+Voicing tier	deltaUnvoicedLn	stdevLn	uv	standard deviation of ln normalized unvoiced intervals
+Voicing tier	varcoUnvoiced	varco	uv	coefficient of variation of deltaUnvoiced
+Voicing tier	rPVI_Unvoiced	rPVI	uv	raw Pairwise Variability Index for unvoiced intervals
+Voicing tier	nPVI_Unvoiced	nPVI	uv	normalized Pairwise Variability Index for unvoiced intervals
+CCI tier	cci_vocalic	cci	v	control and compensation index for vocalic intervals
+CCI tier	cci_consonantal	cci	c	control and compensation index for consonantal intervals
